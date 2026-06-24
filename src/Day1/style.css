@@ -190,3 +190,25 @@ footer {
     color: white;
     margin-top: 30px;
 }
+.about-card {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.about-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-content h3 {
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
